@@ -15,6 +15,7 @@
     <meta http-equiv="content-language" content="en">
     <title>Prem Constructions</title>
     <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic" rel="stylesheet" type="text/css">
+    <script src="assets/js/jQuery/jquery.min.js"></script>
     <script data-main="assets/js/Main.js" src="assets/js/RequireJS/require.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/revolution.min.css">
@@ -22,15 +23,16 @@
     <link rel="stylesheet" href="assets/js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <title>Sample Test</title>
 </head>
-<body style="font-family: Lato;">
+<body ng-app style="font-family: Lato;">
     <!-- Environment is now setup, start coding from here
       @TODO: Do not forget to add the script at the end of document
     -->
     <!-- header code goes over here -->
-    <header id="masthead" class="navbar navbar-sticky prem-main-style" role="banner">
+    <header id="prem-header" class="navbar top-navbar-jelly prem-main-style" role="banner">
         <div class="container">
-            <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-                <a href="index-2.html" class="navbar-brand"><img src="assets/images/logo.png" alt="One of the best themes ever">Angle</a>
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"><img src="assets/images/logo.png" alt="Prem Constructions"><div>Prem Constructions</div></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
             </div>
             <nav class="collapse navbar-collapse main-navbar" role="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -46,7 +48,6 @@
                             <li><a href="ongoing.html">Ongoing</a></li>
                             <li role="presentation" class="divider"></li>
                             <li><a href="upcoming.html">Upcoming</a></li>
-                            <li role="presentation" class="divider"></li>
                             <li><a href="finished.html">Finished</a></li>
                         </ul>
                     </li>

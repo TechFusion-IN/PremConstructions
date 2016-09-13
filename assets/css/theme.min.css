@@ -3325,59 +3325,64 @@ pre {
         width: auto
     }
 }
-#masthead .navbar-brand {
+#prem-header .navbar-brand {
     padding: 0;
-    line-height: 90px;
+    width: 11em;
     height: 90px
 }
-#masthead .navbar-brand img {
+#prem-header .navbar-brand img {
     left: 4px;
+    float: left;
     vertical-align: middle;
     max-height: 100%
 }
-#masthead .nav>li>a {
+#prem-header .nav>li>a {
     padding-top: 33px;
     padding-bottom: 33px
 }
-#masthead .nav>li>a:before {
+#prem-header .nav>li>a:before {
     margin-bottom: -18.5px
 }
-#masthead .nav li.active>a:before,
-#masthead .nav>li a:hover:before,
-#masthead .nav>li.current-menu-ancestor>a:before,
-#masthead .nav>li.current-menu-item>a:before,
-#masthead .nav>li.current-menu-parent>a:before,
-#masthead .nav>li.current-page-ancestor>a:before,
-#masthead .nav>li.current-page-parent>a:before {
+#prem-header .nav li.active>a:before,
+#prem-header .nav>li a:hover:before,
+#prem-header .nav>li.current-menu-ancestor>a:before,
+#prem-header .nav>li.current-menu-item>a:before,
+#prem-header .nav>li.current-menu-parent>a:before,
+#prem-header .nav>li.current-page-ancestor>a:before,
+#prem-header .nav>li.current-page-parent>a:before {
     margin-bottom: -16.5px
 }
-#masthead .navbar-text {
+#prem-header .navbar-text {
     line-height: 24px;
     margin-top: 33px;
     margin-bottom: 33px
 }
-#masthead.navbar {
+#prem-header.navbar {
     min-height: 90px
 }
-#masthead.navbar-animate-display,
-#masthead.navbar-scrolled {
+#prem-header.navbar-animate-display,
+#prem-header.navbar-scrolled {
     min-height: 70px
 }
-#masthead.navbar-animate-display .navbar-brand,
-#masthead.navbar-scrolled .navbar-brand {
+#prem-header.navbar-animate-display .navbar-brand,
+#prem-header.navbar-scrolled .navbar-brand {
     line-height: 70px;
     height: 70px
 }
-#masthead.navbar-scrolled .navbar-nav>li>a {
+#prem-header.navbar-scrolled .navbar-nav>li>a {
     padding-top: 23px;
     padding-bottom: 23px
 }
-#masthead.navbar-scrolled .navbar-text {
+#prem-header.navbar-scrolled .navbar-text {
     margin-top: 23px;
     margin-bottom: 23px
 }
-#masthead .dropdown-menu {
+#prem-header .dropdown-menu {
     min-width: 200px
+}
+#prem-header .navbar-toggle {
+    float: left;
+    margin-top:2em;
 }
 .navbar-toggle {
     margin-top: 28px;
@@ -3387,7 +3392,7 @@ pre {
     margin-top: 18px;
     margin-bottom: 18px
 }
-#masthead .navbar-brand {
+#prem-header .navbar-brand {
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 0;
@@ -3400,7 +3405,7 @@ pre {
     transition: height .3s, width .3s, line-height .3s;
     white-space: nowrap
 }
-#masthead .navbar-brand img {
+#prem-header .navbar-brand img {
     position: relative;
     -moz-transition: all .2s;
     -o-transition: all .2s;
@@ -3409,14 +3414,17 @@ pre {
     top: -2px;
     margin-right: 4px
 }
-#masthead .navbar-brand.text-image {
+#prem-header .navbar-brand div {
+    margin-top: 1.5em;
+}
+#prem-header .navbar-brand.text-image {
     margin-right: 4px
 }
 .navbar-nav {
     margin-left: 0;
     margin-right: 0
 }
-#masthead .navbar-text {
+#prem-header .navbar-text {
     font-size: 16px;
     float: none;
     -moz-transition: all .2s;
@@ -3424,7 +3432,7 @@ pre {
     -webkit-transition: all .2s;
     transition: all .2s
 }
-#masthead {
+#prem-header {
     -webkit-transition: -webkit-box-shadow .5s, opacity .3s;
     -moz-transition: -moz-box-shadow .5s, opacity .3s;
     -o-transition: -o-box-shadow .5s, opacity .3s;
@@ -3434,10 +3442,10 @@ pre {
     top: 0;
     left: 0
 }
-#masthead .container {
+#prem-header .container {
     position: relative
 }
-#masthead .nav>li>a {
+#prem-header .nav>li>a {
     text-shadow: none;
     font-style: normal;
     position: relative;
@@ -3446,7 +3454,7 @@ pre {
     -webkit-transition: all .2s;
     transition: all .2s
 }
-#masthead .nav>li>a:before {
+#prem-header .nav>li>a:before {
     opacity: 0;
     content: "";
     position: absolute;
@@ -3459,35 +3467,35 @@ pre {
     -webkit-transition: all .2s;
     transition: all .2s
 }
-#masthead .nav>li a:hover:before,
-#masthead .nav>li.active a:before,
-#masthead .nav>li.current-menu-ancestor>a:before,
-#masthead .nav>li.current-menu-item>a:before,
-#masthead .nav>li.current-menu-parent>a:before,
-#masthead .nav>li.current-page-ancestor>a:before,
-#masthead .nav>li.current-page-parent>a:before {
+#prem-header .nav>li a:hover:before,
+#prem-header .nav>li.active a:before,
+#prem-header .nav>li.current-menu-ancestor>a:before,
+#prem-header .nav>li.current-menu-item>a:before,
+#prem-header .nav>li.current-menu-parent>a:before,
+#prem-header .nav>li.current-page-ancestor>a:before,
+#prem-header .nav>li.current-page-parent>a:before {
     opacity: 1
 }
-#masthead .nav>li>a:focus {
+#prem-header .nav>li>a:focus {
     outline: 0
 }
-#masthead .nav>.active>a,
-#masthead .nav>.active>a:focus,
-#masthead .nav>.active>a:hover {
+#prem-header .nav>.active>a,
+#prem-header .nav>.active>a:focus,
+#prem-header .nav>.active>a:hover {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: transparent
 }
-#masthead .nav .open>a,
-#masthead .nav .open>a:focus,
-#masthead .nav .open>a:hover,
-#masthead .nav li.dropdown.active>.dropdown-toggle,
-#masthead .nav li.dropdown.open.active>.dropdown-toggle,
-#masthead .nav li.dropdown.open>.dropdown-toggle {
+#prem-header .nav .open>a,
+#prem-header .nav .open>a:focus,
+#prem-header .nav .open>a:hover,
+#prem-header .nav li.dropdown.active>.dropdown-toggle,
+#prem-header .nav li.dropdown.open.active>.dropdown-toggle,
+#prem-header .nav li.dropdown.open>.dropdown-toggle {
     background-color: transparent
 }
-#masthead .dropdown-menu {
+#prem-header .dropdown-menu {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -3498,7 +3506,7 @@ pre {
     left: 0;
     border: 0
 }
-#masthead .dropdown-menu>li>a {
+#prem-header .dropdown-menu>li>a {
     font-size: 14px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -3507,15 +3515,15 @@ pre {
     -webkit-transition: background .1s;
     transition: background .1s
 }
-#masthead .dropdown-menu a:focus {
+#prem-header .dropdown-menu a:focus {
     outline: 0
 }
-#masthead .navbar .nav>li>.dropdown-menu.pull-right .dropdown-menu,
-#masthead .navbar .pull-right>li>.dropdown-menu .dropdown-menu {
+#prem-header .navbar .nav>li>.dropdown-menu.pull-right .dropdown-menu,
+#prem-header .navbar .pull-right>li>.dropdown-menu .dropdown-menu {
     left: 100%;
     right: auto
 }
-#masthead .navbar .navbar-toggle {
+#prem-header .navbar .navbar-toggle {
     background: 0 0;
     box-shadow: none;
     border: 0;
@@ -3524,7 +3532,7 @@ pre {
     -webkit-transition: all .2s;
     transition: all .2s
 }
-#masthead .navbar .navbar-toggle .icon-bar {
+#prem-header .navbar .navbar-toggle .icon-bar {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -3532,31 +3540,31 @@ pre {
 .dropdown-menu .divider {
     margin: 0
 }
-#masthead.navbar-animated.navbar-animate-display {
+#prem-header.navbar-animated.navbar-animate-display {
     position: fixed;
     top: -200px
 }
-#masthead.navbar-animated.navbar-animate-position {
+#prem-header.navbar-animated.navbar-animate-position {
     -webkit-transition: -webkit-box-shadow .5s, top .2s;
     -moz-transition: -moz-box-shadow .5s, top .2s;
     -ms-transition: -ms-box-shadow .5s, top .2s;
     -o-transition: -o-box-shadow .5s, top .2s;
     transition: box-shadow .5s, top .2s
 }
-#masthead.navbar-scrolled.navbar-animated {
+#prem-header.navbar-scrolled.navbar-animated {
     top: 0
 }
-#masthead .dropdown-submenu {
+#prem-header .dropdown-submenu {
     position: relative
 }
-#masthead .dropdown-submenu>.dropdown-menu {
+#prem-header .dropdown-submenu>.dropdown-menu {
     top: 0;
     left: 100%
 }
-#masthead .dropdown-submenu:hover>.dropdown-menu {
+#prem-header .dropdown-submenu:hover>.dropdown-menu {
     display: block
 }
-#masthead .dropdown-submenu>a:after {
+#prem-header .dropdown-submenu>a:after {
     display: block;
     content: " ";
     float: right;
@@ -3568,11 +3576,11 @@ pre {
     margin-top: 5px;
     margin-right: -10px
 }
-#masthead .navbar-collapse {
+#prem-header .navbar-collapse {
     padding-left: 0;
     padding-right: 0
 }
-#masthead.navbar-stuck {
+#prem-header.navbar-stuck {
     position: fixed;
     z-index: 1100
 }
@@ -3647,12 +3655,13 @@ pre {
     border-radius: 6px
 }
 @media (max-width: 979px) {
-    #masthead.navbar .navbar-nav>li>a {
+    #prem-header.navbar .navbar-nav>li>a {
         padding-top: 8px!important;
-        padding-bottom: 8px!important
+        padding-bottom: 8px!important;
+        margin-left: 1em;
     }
-    #masthead .navbar-fixed-top,
-    #masthead .navbar-static-top {
+    #prem-header .navbar-fixed-top,
+    #prem-header .navbar-static-top {
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0
@@ -3671,20 +3680,20 @@ pre {
     .nav-collapse .nav>li>a {
         padding: 9px 15px!important
     }
-    #masthead .dropdown-menu {
+    #prem-header .dropdown-menu {
         margin: 0;
         width: 100%
     }
-    #masthead .dropdown-menu a {
+    #prem-header .dropdown-menu a {
         padding-left: 15px;
         text-indent: 10px
     }
-    #masthead .dropdown-submenu>a:after {
+    #prem-header .dropdown-submenu>a:after {
         margin-top: 10px;
         margin-right: 5px;
         border-width: 5px 5px 0
     }
-    #masthead.navbar-sticky .navbar-collapse {
+    #prem-header.top-navbar-jelly .navbar-collapse {
         max-height: 340px
     }
 }
@@ -3727,12 +3736,12 @@ pre {
 .no-header {
     padding-top: 0
 }
-.no-header #masthead,
+.no-header #prem-header,
 .no-header .top-bar {
     display: none
 }
 .layout-boxed #content,
-.layout-boxed #masthead,
+.layout-boxed #prem-header,
 .layout-boxed .top-bar {
     max-width: 1200px;
     margin: 0 auto;
@@ -3743,14 +3752,14 @@ pre {
 }
 @media (max-width: 1200px) {
     .layout-boxed #content,
-    .layout-boxed #masthead,
+    .layout-boxed #prem-header,
     .layout-boxed .top-bar {
         max-width: 1000px
     }
 }
 @media (max-width: 991px) {
     .layout-boxed #content,
-    .layout-boxed #masthead,
+    .layout-boxed #prem-header,
     .layout-boxed .top-bar {
         max-width: 780px
     }
@@ -4947,6 +4956,9 @@ ul.inline li {
     }
 }
 @media (max-width: 767px) {
+    #prem-header .navbar-brand div {
+        font-size: 0.9em;
+    }
     .affix {
         top: 0
     }
@@ -7509,7 +7521,7 @@ div.mejs-speed-button {
 .sidebar-widget {
     margin-bottom: 48px
 }
-#masthead .sidebar-widget,
+#prem-header .sidebar-widget,
 .top-bar .sidebar-widget {
     margin-bottom: 0;
     font-size: 14px!important;
@@ -7517,16 +7529,16 @@ div.mejs-speed-button {
     vertical-align: top;
     position: relative
 }
-#masthead .sidebar-widget>*,
+#prem-header .sidebar-widget>*,
 .top-bar .sidebar-widget>* {
     margin-bottom: 0!important;
     padding-bottom: 0!important
 }
-#masthead .sidebar-widget {
+#prem-header .sidebar-widget {
     padding-left: 6px;
     margin-left: 6px
 }
-#masthead .sidebar-widget i {
+#prem-header .sidebar-widget i {
     line-height: 24px!important;
     font-size: 14px!important
 }
@@ -7541,7 +7553,7 @@ div.mejs-speed-button {
 .widget_search .btn:hover {
     outline: 0
 }
-#masthead .widget_search form,
+#prem-header .widget_search form,
 .top-bar .widget_search form {
     display: none
 }
@@ -7575,7 +7587,7 @@ div.mejs-speed-button {
     -webkit-transition: all .2s;
     transition: all .2s
 }
-#masthead .top-search form,
+#prem-header .top-search form,
 .top-right .top-search form {
     right: 0;
     -moz-transition: right .5s;
@@ -7590,14 +7602,14 @@ div.mejs-speed-button {
     -webkit-transition: left .5s;
     transition: left .5s
 }
-#masthead .top-search.active form,
+#prem-header .top-search.active form,
 .top-right .top-search.active form {
     right: 36px
 }
 .top-left .top-search.active form {
     left: 36px
 }
-#masthead .top-search form {
+#prem-header .top-search form {
     top: 100%;
     margin-right: -36px
 }
@@ -7828,7 +7840,7 @@ div.mejs-speed-button {
 .widget_swatch_wpml_language_selector ul li a {
     float: none!important
 }
-#masthead .widget_swatch_wpml_language_selector ul li a {
+#prem-header .widget_swatch_wpml_language_selector ul li a {
     display: inline-block;
     margin-left: 6px;
     margin-right: 6px
@@ -7847,7 +7859,7 @@ div.mejs-speed-button {
     margin-left: 0
 }
 @media (max-width: 991px) {
-    #masthead .sidebar-widget {
+    #prem-header .sidebar-widget {
         display: none
     }
 }
