@@ -7,11 +7,21 @@ if (requirejs) {
         paths: {
             config: 'config',
             angularJs: 'AngularJS/angular.min',
-            bootstrap: 'bootstrap-3.3.7-dist/js/bootstrap.min'
+            lodash: 'lodash/lodash.core',
+            bootstrap: 'bootstrap-3.3.7-dist/js/bootstrap.min',
+            uiEnhancements: 'ui/UIEnhancements'
         }
     });
     //now load the dependencies accordingly
-    requirejs(['config', 'angularJs', 'bootstrap'], function(config) {
+    requirejs(['config', 'angularJs', 'lodash', 'bootstrap', 'uiEnhancements'], function(config) {
+        $(document).ready(function(){
+            var loader = $('#loader'),
+                pageContent = $('.page-content');
+            loader.fadeOut(800, function(){
+                loader.remove();
+                pageContent.toggleClass('hide-content');
+            });
+        });
         console.log(config, menuItems, $('html'), angular);
     });
 } else {

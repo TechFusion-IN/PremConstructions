@@ -317,7 +317,7 @@
 }
 .prem-main-style.navbar,
 [class*=swatch-] .prem-main-style.navbar {
-    background: #e74c3c;
+    background: #6692A6;
     color: #fff
 }
 .prem-main-style.navbar .nav>li>a,
@@ -376,14 +376,14 @@
 }
 .prem-main-style .dropdown-menu,
 [class*=swatch-] .prem-main-style .dropdown-menu {
-    background: rgba(231, 76, 60, .95);
+    background: #6692A6;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3)
 }
 .prem-main-style .dropdown-menu>li>a,
 [class*=swatch-] .prem-main-style .dropdown-menu>li>a {
-    color: #fff
+    color: #fff;
 }
 .prem-main-style .dropdown-menu a:hover,
 .prem-main-style .dropdown-menu>.active>a,
@@ -394,7 +394,7 @@
 [class*=swatch-] .prem-main-style .dropdown-menu>.active>a:focus,
 [class*=swatch-] .prem-main-style .dropdown-menu>.active>a:hover {
     background: #fff;
-    color: #e74c3c
+    color: #6692A6;
 }
 .prem-main-style .dropdown-menu a:hover i,
 .prem-main-style .dropdown-menu>.active>a i,
@@ -470,8 +470,8 @@
     }
     .prem-main-style.navbar .nav>li>a:hover,
     [class*=swatch-] .prem-main-style.navbar .nav>li>a:hover {
-        background: #e43725;
-        color: #fff
+        background: #ffffff;
+        color: #6692A6
     }
     .prem-main-style.navbar .dropdown-menu,
     [class*=swatch-] .prem-main-style.navbar .dropdown-menu {
