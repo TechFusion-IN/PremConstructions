@@ -3327,7 +3327,6 @@ pre {
 }
 #prem-header .navbar-brand {
     padding: 0;
-    width: 11em;
     height: 90px
 }
 #prem-header .navbar-brand img {
@@ -3654,6 +3653,11 @@ pre {
     z-index: -1;
     border-radius: 6px
 }
+@media (min-width: 200px) and (max-width: 700px) {
+    #prem-header.top-navbar-jelly .navbar-collapse {
+     margin-top: 0 !important;
+    }
+}
 @media (max-width: 979px) {
     #prem-header.navbar .navbar-nav>li>a {
         padding-top: 8px!important;
@@ -3694,7 +3698,8 @@ pre {
         border-width: 5px 5px 0
     }
     #prem-header.top-navbar-jelly .navbar-collapse {
-        max-height: 340px
+        max-height: 340px;
+        margin-top: 2.2em;
     }
 }
 .top-bar {
@@ -4958,6 +4963,10 @@ ul.inline li {
 @media (max-width: 767px) {
     #prem-header .navbar-brand div {
         font-size: 0.9em;
+        font-weight: bold;
+    }
+    #prem-header .navbar-header button {
+        float: right;
     }
     .affix {
         top: 0
