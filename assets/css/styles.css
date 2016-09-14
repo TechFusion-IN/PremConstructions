@@ -90,110 +90,74 @@
 [class*=swatch-] .prem-main-style hr {
     border-top-color: rgba(0, 0, 0, .075)
 }
-.prem-main-style pre,
-[class*=swatch-] .prem-main-style pre {
+.prem-main-style pre {
     background: #F0C6BC;
     color: #e74c3c
 }
 .prem-main-style .bordered-header:after,
-.prem-main-style .section-header:after,
-[class*=swatch-] .prem-main-style .bordered-header:after,
-[class*=swatch-] .prem-main-style .section-header:after {
+.prem-main-style .section-header:after {
     background: #fff
 }
-.prem-main-style .active,
-[class*=swatch-] .prem-main-style .active {
+.prem-main-style .active {
     color: #FACCC8
 }
 .prem-main-style .btn-primary,
 .prem-main-style button,
-.prem-main-style input[type=submit],
-[class*=swatch-] .prem-main-style .btn-primary,
-[class*=swatch-] .prem-main-style button,
-[class*=swatch-] .prem-main-style input[type=submit] {
+.prem-main-style input[type=submit] {
     background-color: #73bfc1;
     color: #fff
 }
 .prem-main-style .btn-primary:hover,
 .prem-main-style button:hover,
-.prem-main-style input[type=submit]:hover,
-[class*=swatch-] .prem-main-style .btn-primary:hover,
-[class*=swatch-] .prem-main-style button:hover,
-[class*=swatch-] .prem-main-style input[type=submit]:hover {
+.prem-main-style input[type=submit]:hover {
     background-color: rgba(115, 191, 193, .9);
     color: #fff
 }
 .prem-main-style .btn-primary.btn-icon-right:after,
 .prem-main-style button.btn-icon-right:after,
-.prem-main-style input[type=submit].btn-icon-right:after,
-[class*=swatch-] .prem-main-style .btn-primary.btn-icon-right:after,
-[class*=swatch-] .prem-main-style button.btn-icon-right:after,
-[class*=swatch-] .prem-main-style input[type=submit].btn-icon-right:after {
+.prem-main-style input[type=submit].btn-icon-right:after {
     border-left-color: #73bfc1
 }
 .prem-main-style .btn-primary.btn-icon-left:after,
 .prem-main-style button.btn-icon-left:after,
-.prem-main-style input[type=submit].btn-icon-left:after,
-[class*=swatch-] .prem-main-style .btn-primary.btn-icon-left:after,
-[class*=swatch-] .prem-main-style button.btn-icon-left:after,
-[class*=swatch-] .prem-main-style input[type=submit].btn-icon-left:after {
+.prem-main-style input[type=submit].btn-icon-left:after {
     border-right-color: #73bfc1
 }
 .prem-main-style .btn-primary.btn-icon-right:hover:after,
 .prem-main-style button.btn-icon-right:hover:after,
-.prem-main-style input[type=submit].btn-icon-right:hover:after,
-[class*=swatch-] .prem-main-style .btn-primary.btn-icon-right:hover:after,
-[class*=swatch-] .prem-main-style button.btn-icon-right:hover:after,
-[class*=swatch-] .prem-main-style input[type=submit].btn-icon-right:hover:after {
+.prem-main-style input[type=submit].btn-icon-right:hover:after {
     border-left-color: rgba(115, 191, 193, .9)
 }
 .prem-main-style .btn-primary.btn-icon-left:hover:after,
 .prem-main-style button.btn-icon-left:hover:after,
-.prem-main-style input[type=submit].btn-icon-left:hover:after,
-[class*=swatch-] .prem-main-style .btn-primary.btn-icon-left:hover:after,
-[class*=swatch-] .prem-main-style button.btn-icon-left:hover:after,
-[class*=swatch-] .prem-main-style input[type=submit].btn-icon-left:hover:after {
+.prem-main-style input[type=submit].btn-icon-left:hover:after {
     border-right-color: rgba(115, 191, 193, .9)
 }
 .prem-main-style .btn-primary .hex-alt,
 .prem-main-style button .hex-alt,
-.prem-main-style input[type=submit] .hex-alt,
-[class*=swatch-] .prem-main-style .btn-primary .hex-alt,
-[class*=swatch-] .prem-main-style button .hex-alt,
-[class*=swatch-] .prem-main-style input[type=submit] .hex-alt {
+.prem-main-style input[type=submit] .hex-alt {
     background: rgba(255, 255, 255, .2)
 }
 .prem-main-style .btn-primary .hex-alt:before,
 .prem-main-style button .hex-alt:before,
-.prem-main-style input[type=submit] .hex-alt:before,
-[class*=swatch-] .prem-main-style .btn-primary .hex-alt:before,
-[class*=swatch-] .prem-main-style button .hex-alt:before,
-[class*=swatch-] .prem-main-style input[type=submit] .hex-alt:before {
+.prem-main-style input[type=submit] .hex-alt:before {
     border-right-color: rgba(255, 255, 255, .2)
 }
 .prem-main-style .btn-primary .hex-alt:after,
 .prem-main-style button .hex-alt:after,
-.prem-main-style input[type=submit] .hex-alt:after,
-[class*=swatch-] .prem-main-style .btn-primary .hex-alt:after,
-[class*=swatch-] .prem-main-style button .hex-alt:after,
-[class*=swatch-] .prem-main-style input[type=submit] .hex-alt:after {
+.prem-main-style input[type=submit] .hex-alt:after {
     border-left-color: rgba(255, 255, 255, .2)
 }
 .prem-main-style .btn-primary .hex-alt i,
 .prem-main-style button .hex-alt i,
-.prem-main-style input[type=submit] .hex-alt i,
-[class*=swatch-] .prem-main-style .btn-primary .hex-alt i,
-[class*=swatch-] .prem-main-style button .hex-alt i,
-[class*=swatch-] .prem-main-style input[type=submit] .hex-alt i {
+.prem-main-style input[type=submit] .hex-alt i {
     color: #fff!important
 }
-.prem-main-style .btn-link,
-[class*=swatch-] .prem-main-style .btn-link {
+.prem-main-style .btn-link {
     text-decoration: none;
     box-shadow: 0 0 0 1px #fff inset
 }
-.prem-main-style .btn-link:hover,
-[class*=swatch-] .prem-main-style .btn-link:hover {
+.prem-main-style .btn-link:hover {
     text-decoration: none;
     color: #fff;
     background: rgba(115, 191, 193, .05)
@@ -202,12 +166,7 @@
 .prem-main-style .uneditable-input,
 .prem-main-style input,
 .prem-main-style select,
-.prem-main-style textarea,
-[class*=swatch-] .prem-main-style .input-group-btn,
-[class*=swatch-] .prem-main-style .uneditable-input,
-[class*=swatch-] .prem-main-style input,
-[class*=swatch-] .prem-main-style select,
-[class*=swatch-] .prem-main-style textarea {
+.prem-main-style textarea {
     background: #fdfdfd;
     color: #444
 }
@@ -216,65 +175,34 @@
 .prem-main-style input:-moz-placeholder,
 .prem-main-style select:-moz-placeholder,
 .prem-main-style textarea:-moz-placeholder,
-[class*=swatch-] .prem-main-style .input-group-btn:-moz-placeholder,
-[class*=swatch-] .prem-main-style .uneditable-input:-moz-placeholder,
-[class*=swatch-] .prem-main-style input:-moz-placeholder,
-[class*=swatch-] .prem-main-style select:-moz-placeholder,
-[class*=swatch-] .prem-main-style textarea:-moz-placeholder {
-    color: #515151
-}
 .prem-main-style .input-group-btn::-moz-placeholder,
 .prem-main-style .uneditable-input::-moz-placeholder,
 .prem-main-style input::-moz-placeholder,
 .prem-main-style select::-moz-placeholder,
 .prem-main-style textarea::-moz-placeholder,
-[class*=swatch-] .prem-main-style .input-group-btn::-moz-placeholder,
-[class*=swatch-] .prem-main-style .uneditable-input::-moz-placeholder,
-[class*=swatch-] .prem-main-style input::-moz-placeholder,
-[class*=swatch-] .prem-main-style select::-moz-placeholder,
-[class*=swatch-] .prem-main-style textarea::-moz-placeholder {
-    color: #515151
-}
 .prem-main-style .input-group-btn:-ms-input-placeholder,
 .prem-main-style .uneditable-input:-ms-input-placeholder,
 .prem-main-style input:-ms-input-placeholder,
 .prem-main-style select:-ms-input-placeholder,
 .prem-main-style textarea:-ms-input-placeholder,
-[class*=swatch-] .prem-main-style .input-group-btn:-ms-input-placeholder,
-[class*=swatch-] .prem-main-style .uneditable-input:-ms-input-placeholder,
-[class*=swatch-] .prem-main-style input:-ms-input-placeholder,
-[class*=swatch-] .prem-main-style select:-ms-input-placeholder,
-[class*=swatch-] .prem-main-style textarea:-ms-input-placeholder {
-    color: #515151
-}
 .prem-main-style .input-group-btn::-webkit-input-placeholder,
 .prem-main-style .uneditable-input::-webkit-input-placeholder,
 .prem-main-style input::-webkit-input-placeholder,
 .prem-main-style select::-webkit-input-placeholder,
-.prem-main-style textarea::-webkit-input-placeholder,
-[class*=swatch-] .prem-main-style .input-group-btn::-webkit-input-placeholder,
-[class*=swatch-] .prem-main-style .uneditable-input::-webkit-input-placeholder,
-[class*=swatch-] .prem-main-style input::-webkit-input-placeholder,
-[class*=swatch-] .prem-main-style select::-webkit-input-placeholder,
-[class*=swatch-] .prem-main-style textarea::-webkit-input-placeholder {
+.prem-main-style textarea::-webkit-input-placeholder {
     color: #515151
 }
 .prem-main-style .form-control:focus,
 .prem-main-style input:focus,
-.prem-main-style textarea:focus,
-[class*=swatch-] .prem-main-style .form-control:focus,
-[class*=swatch-] .prem-main-style input:focus,
-[class*=swatch-] .prem-main-style textarea:focus {
+.prem-main-style textarea:focus {
     -webkit-box-shadow: 0 3px 0 #ad0a04;
     -moz-box-shadow: 0 3px 0 #ad0a04;
     box-shadow: 0 3px 0 #ad0a04
 }
-.prem-main-style .form-icon-group i,
-[class*=swatch-] .prem-main-style .form-icon-group i {
+.prem-main-style .form-icon-group i {
     color: #73bfc1
 }
-.prem-main-style input[type=button],
-[class*=swatch-] .prem-main-style input[type=button] {
+.prem-main-style input[type=button] {
     background: #73bfc1;
     color: #fff
 }
@@ -308,25 +236,17 @@
 .prem-main-style .table-hover tbody tr:hover>td,
 .prem-main-style .table-hover tbody tr:hover>th,
 .prem-main-style .table-striped tbody>tr:nth-child(odd)>td,
-.prem-main-style .table-striped tbody>tr:nth-child(odd)>th,
-[class*=swatch-] .prem-main-style .table-hover tbody tr:hover>td,
-[class*=swatch-] .prem-main-style .table-hover tbody tr:hover>th,
-[class*=swatch-] .prem-main-style .table-striped tbody>tr:nth-child(odd)>td,
-[class*=swatch-] .prem-main-style .table-striped tbody>tr:nth-child(odd)>th {
+.prem-main-style .table-striped tbody>tr:nth-child(odd)>th {
     background: rgba(0, 0, 0, .075)
 }
-.prem-main-style.navbar,
-[class*=swatch-] .prem-main-style.navbar {
-    background: #6692A6;
-    color: #fff
+.prem-main-style.navbar {
+    background: #fff;
+    color: #333;
 }
 .prem-main-style.navbar .nav>li>a,
 .prem-main-style.navbar .navbar-brand,
-.prem-main-style.navbar .navbar-brand:hover,
-[class*=swatch-] .prem-main-style.navbar .nav>li>a,
-[class*=swatch-] .prem-main-style.navbar .navbar-brand,
-[class*=swatch-] .prem-main-style.navbar .navbar-brand:hover {
-    color: #fff
+.prem-main-style.navbar .navbar-brand:hover {
+    color: #333;
 }
 .prem-main-style.navbar .nav>li>a:focus,
 .prem-main-style.navbar .nav>li>a:hover,
@@ -334,9 +254,20 @@
 [class*=swatch-] .prem-main-style.navbar .nav>li>a:hover {
     background: 0 0
 }
-.prem-main-style.navbar .nav>li>a:before,
-[class*=swatch-] .prem-main-style.navbar .nav>li>a:before {
-    background-color: #fff
+.prem-main-style:hover.navbar .nav>li.active>a {
+    border: 3px solid #fff;
+    border-radius: 4px;
+}
+.prem-main-style.navbar .nav>li.active>a {
+    border: 3px solid #1d1d1d;
+    border-radius: 4px;
+}
+.prem-main-style:hover.navbar .nav>li.active>a:before {
+    display: none;
+}
+.prem-main-style:hover.navbar .nav>li>a:before,
+.prem-main-style:hover.navbar .nav>li.open>a:before {
+    background-color: #fff;
 }
 .prem-main-style .navbar-toggle,
 [class*=swatch-] .prem-main-style .navbar-toggle {
@@ -350,101 +281,76 @@
 [class*=swatch-] .prem-main-style .navbar-toggle:hover {
     background: 0 0
 }
-.prem-main-style.navbar .nav li.dropdown.active>.dropdown-toggle,
-.prem-main-style.navbar .nav li.dropdown.open.active>.dropdown-toggle,
-.prem-main-style.navbar .nav li.dropdown.open>.dropdown-toggle,
-.prem-main-style.navbar .nav>.active>a,
-.prem-main-style.navbar .nav>.active>a:focus,
-.prem-main-style.navbar .nav>.current-menu-item>a .prem-main-style.navbar .nav>.active>a:hover,
-.prem-main-style.navbar .nav>.current-menu-item>a [class*=swatch-] .prem-main-style.navbar .nav>.active>a:hover,
-.prem-main-style.navbar .nav>.current-menu-item>a:focus,
-.prem-main-style.navbar .nav>.current-menu-item>a:hover,
-.prem-main-style.navbar .nav>li>a:focus,
-.prem-main-style.navbar .nav>li>a:hover,
-[class*=swatch-] .prem-main-style.navbar .nav li.dropdown.active>.dropdown-toggle,
-[class*=swatch-] .prem-main-style.navbar .nav li.dropdown.open.active>.dropdown-toggle,
-[class*=swatch-] .prem-main-style.navbar .nav li.dropdown.open>.dropdown-toggle,
-[class*=swatch-] .prem-main-style.navbar .nav>.active>a,
-[class*=swatch-] .prem-main-style.navbar .nav>.active>a:focus,
-[class*=swatch-] .prem-main-style.navbar .nav>.current-menu-item>a .prem-main-style.navbar .nav>.active>a:hover,
-[class*=swatch-] .prem-main-style.navbar .nav>.current-menu-item>a [class*=swatch-] .prem-main-style.navbar .nav>.active>a:hover,
-[class*=swatch-] .prem-main-style.navbar .nav>.current-menu-item>a:focus,
-[class*=swatch-] .prem-main-style.navbar .nav>.current-menu-item>a:hover,
-[class*=swatch-] .prem-main-style.navbar .nav>li>a:focus,
-[class*=swatch-] .prem-main-style.navbar .nav>li>a:hover {
-    color: #fff
+.prem-main-style.top-navbar-jelly:hover.navbar .nav li.dropdown.active>.dropdown-toggle,
+.prem-main-style.top-navbar-jelly:hover.navbar .nav li.dropdown>.dropdown-toggle {
+    color: #fff;
 }
-.prem-main-style .dropdown-menu,
-[class*=swatch-] .prem-main-style .dropdown-menu {
-    background: #6692A6;
+.prem-main-style.top-navbar-jelly:hover .navbar .nav>li>a {
+    color: #fff;
+}
+.prem-main-style:hover .dropdown-menu {
+    background: #1d1d1d;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3)
 }
-.prem-main-style .dropdown-menu>li>a,
-[class*=swatch-] .prem-main-style .dropdown-menu>li>a {
+.prem-main-style .dropdown-menu {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 0 rgba(223, 46, 27, .3)
+}
+.prem-main-style:hover .dropdown-menu>li>a {
     color: #fff;
+}
+.prem-main-style:hover .dropdown-menu>li>a:hover {
+    color: #1d1d1d;
+}
+.prem-main-style .dropdown-menu>li>a {
+    color: #1d1d1d;
 }
 .prem-main-style .dropdown-menu a:hover,
 .prem-main-style .dropdown-menu>.active>a,
 .prem-main-style .dropdown-menu>.active>a:focus,
-.prem-main-style .dropdown-menu>.active>a:hover,
-[class*=swatch-] .prem-main-style .dropdown-menu a:hover,
-[class*=swatch-] .prem-main-style .dropdown-menu>.active>a,
-[class*=swatch-] .prem-main-style .dropdown-menu>.active>a:focus,
-[class*=swatch-] .prem-main-style .dropdown-menu>.active>a:hover {
+.prem-main-style .dropdown-menu>.active>a:hover {
     background: #fff;
-    color: #6692A6;
+    color: #1d1d1d;
 }
 .prem-main-style .dropdown-menu a:hover i,
 .prem-main-style .dropdown-menu>.active>a i,
 .prem-main-style .dropdown-menu>.active>a:focus i,
-.prem-main-style .dropdown-menu>.active>a:hover i,
-[class*=swatch-] .prem-main-style .dropdown-menu a:hover i,
-[class*=swatch-] .prem-main-style .dropdown-menu>.active>a i,
-[class*=swatch-] .prem-main-style .dropdown-menu>.active>a:focus i,
-[class*=swatch-] .prem-main-style .dropdown-menu>.active>a:hover i {
+.prem-main-style .dropdown-menu>.active>a:hover i {
     color: #e74c3c
 }
 .prem-main-style.navbar .nav>li>.dropdown-menu:after,
-.prem-main-style.navbar .nav>li>.dropdown-menu:before,
-[class*=swatch-] .prem-main-style.navbar .nav>li>.dropdown-menu:after,
-[class*=swatch-] .prem-main-style.navbar .nav>li>.dropdown-menu:before {
+.prem-main-style.navbar .nav>li>.dropdown-menu:before {
     display: none
 }
-.prem-main-style.navbar-scrolled,
-[class*=swatch-] .prem-main-style.navbar-scrolled {
+.prem-main-style.navbar-scrolled {
     background: rgba(231, 76, 60, .95);
     -webkit-box-shadow: 0 4px 0 rgba(223, 46, 27, .3);
     -moz-box-shadow: 0 4px 0 rgba(223, 46, 27, .3);
     box-shadow: 0 4px 0 rgba(223, 46, 27, .3)
 }
-.prem-main-style .dropdown-submenu>a:after,
-[class*=swatch-] .prem-main-style .dropdown-submenu>a:after {
+.prem-main-style .dropdown-submenu>a:after {
     border-left-color: #fff!important
 }
-.prem-main-style .dropdown-submenu>a:hover:after,
-[class*=swatch-] .prem-main-style .dropdown-submenu>a:hover:after {
+.prem-main-style .dropdown-submenu>a:hover:after {
     border-left-color: #e74c3c!important
 }
-.prem-main-style .dropdown-menu .divider,
-[class*=swatch-] .prem-main-style .dropdown-menu .divider {
+.prem-main-style .dropdown-menu .divider {
     background-color: rgba(0, 0, 0, .075)
 }
-.prem-main-style.navbar .nav-highlight>a,
-[class*=swatch-] .prem-main-style.navbar .nav-highlight>a {
+.prem-main-style.navbar .nav-highlight>a {
     color: #e74c3c!important
 }
-.prem-main-style.navbar .nav-highlight>a:after,
-[class*=swatch-] .prem-main-style.navbar .nav-highlight>a:after {
+.prem-main-style.navbar .nav-highlight>a:after {
     background: #fff
 }
-.prem-main-style.navbar .nav-highlight>a:hover,
-[class*=swatch-] .prem-main-style.navbar .nav-highlight>a:hover {
+.prem-main-style.navbar .nav-highlight>a:hover {
     color: #e74c3c!important
 }
-.prem-main-style.navbar .nav-highlight>a:hover:after,
-[class*=swatch-] .prem-main-style.navbar .nav-highlight>a:hover:after {
+.prem-main-style.navbar .nav-highlight>a:hover:after {
     background: rgba(255, 255, 255, .8)
 }
 .prem-main-style.navbar li.nav-highlight-ghost>a,
@@ -468,10 +374,9 @@
     [class*=swatch-] .prem-main-style.navbar .nav>li>a {
         border-radius: 0
     }
-    .prem-main-style.navbar .nav>li>a:hover,
-    [class*=swatch-] .prem-main-style.navbar .nav>li>a:hover {
+    .prem-main-style.navbar .nav>li>a:hover {
         background: #ffffff;
-        color: #6692A6
+        color: #1d1d1d
     }
     .prem-main-style.navbar .dropdown-menu,
     [class*=swatch-] .prem-main-style.navbar .dropdown-menu {
@@ -1134,219 +1039,167 @@
 [class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(1):hover:after {
     border-left-color: #61b7b9
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(2),
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(2) {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(2) {
     background: #85c7c9
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(2):after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(2):after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(2):after{
     border-left-color: #85c7c9
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(2):hover,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(2):hover {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(2):hover {
     background: #7ec4c6
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(2):hover:after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(2):hover:after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(2):hover:after {
     border-left-color: #7ec4c6
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(3),
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(3) {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(3) {
     background: #96cfd1
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(3):after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(3):after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(3):after {
     border-left-color: #96cfd1
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(3):hover,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(3):hover {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(3):hover {
     background: #8ccacc
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(3):hover:after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(3):hover:after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(3):hover:after {
     border-left-color: #8ccacc
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(4),
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(4) {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(4) {
     background: #a8d7d8
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(4):after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(4):after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(4):after {
     border-left-color: #a8d7d8
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(4):hover,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(4):hover {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(4):hover {
     background: #9dd2d4
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(4):hover:after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(4):hover:after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(4):hover:after {
     border-left-color: #9dd2d4
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(5),
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(5) {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(5) {
     background: #badfe0
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(5):after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(5):after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(5):after {
     border-left-color: #badfe0
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(5):hover,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(5):hover {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(5):hover {
     background: #afdadc
 }
-.prem-main-style .woocommerce-breadcrumb span:nth-child(5):hover:after,
-[class*=swatch-] .prem-main-style .woocommerce-breadcrumb span:nth-child(5):hover:after {
+.prem-main-style .woocommerce-breadcrumb span:nth-child(5):hover:after {
     border-left-color: #afdadc
 }
-.prem-main-style .woocommerce-ordering .select-wrap,
-[class*=swatch-] .prem-main-style .woocommerce-ordering .select-wrap {
+.prem-main-style .woocommerce-ordering .select-wrap {
     background: #73bfc1;
     color: #fff
 }
 .prem-main-style .woocommerce-ordering .select-wrap:after,
-.prem-main-style .woocommerce-ordering select,
-[class*=swatch-] .prem-main-style .woocommerce-ordering .select-wrap:after,
-[class*=swatch-] .prem-main-style .woocommerce-ordering select {
+.prem-main-style .woocommerce-ordering select {
     color: #fff
 }
-.prem-main-style .product .product-title:after,
-[class*=swatch-] .prem-main-style .product .product-title:after {
+.prem-main-style .product .product-title:after {
     background: #fff
 }
-.prem-main-style .star-rating,
-[class*=swatch-] .prem-main-style .star-rating {
+.prem-main-style .star-rating {
     color: #fff
 }
-.prem-main-style .onsale,
-[class*=swatch-] .prem-main-style .onsale {
+.prem-main-style .onsale {
     background: #73bfc1;
     color: #fff
 }
 .prem-main-style .page-numbers a,
-.prem-main-style .page-numbers span,
-[class*=swatch-] .prem-main-style .page-numbers a,
-[class*=swatch-] .prem-main-style .page-numbers span {
+.prem-main-style .page-numbers span {
     color: #fff
 }
-.prem-main-style .page-numbers li,
-[class*=swatch-] .prem-main-style .page-numbers li {
+.prem-main-style .page-numbers li {
     background: #73bfc1
 }
 .prem-main-style .page-numbers .current,
-.prem-main-style .page-numbers li a:hover,
-[class*=swatch-] .prem-main-style .page-numbers .current,
-[class*=swatch-] .prem-main-style .page-numbers li a:hover {
+.prem-main-style .page-numbers li a:hover {
     background: rgba(0, 0, 0, .075)
 }
-.prem-main-style .pager li>a:focus,
-[class*=swatch-] .prem-main-style .pager li>a:focus {
+.prem-main-style .pager li>a:focus {
     background: #73bfc1;
     color: #fff
 }
-.prem-main-style .product-category h3,
-[class*=swatch-] .prem-main-style .product-category h3 {
+.prem-main-style .product-category h3 {
     background: #fff;
     color: #e74c3c
 }
-.prem-main-style .product-category h3 mark,
-[class*=swatch-] .prem-main-style .product-category h3 mark {
+.prem-main-style .product-category h3 mark {
     background: rgba(0, 0, 0, .075);
     color: #e74c3c
 }
-.prem-main-style .product-nav a i,
-[class*=swatch-] .prem-main-style .product-nav a i {
+.prem-main-style .product-nav a i {
     background: #fff;
     color: #e74c3c
 }
-.prem-main-style .product-images figcaption,
-[class*=swatch-] .prem-main-style .product-images figcaption {
+.prem-main-style .product-images figcaption {
     box-shadow: none;
     background: #73bfc1
 }
-.prem-main-style .product-images figcaption i,
-[class*=swatch-] .prem-main-style .product-images figcaption i {
+.prem-main-style .product-images figcaption i {
     color: #fff
 }
-.prem-main-style .product-images .flex-active,
-[class*=swatch-] .prem-main-style .product-images .flex-active {
+.prem-main-style .product-images .flex-active {
     -webkit-box-shadow: 0 3px 0 #fff;
     -moz-box-shadow: 0 3px 0 #fff;
     box-shadow: 0 3px 0 #fff
 }
-.prem-main-style .order_details,
-[class*=swatch-] .prem-main-style .order_details {
+.prem-main-style .order_details {
     background: rgba(0, 0, 0, .075)
 }
-.prem-main-style .order_details li,
-[class*=swatch-] .prem-main-style .order_details li {
+.prem-main-style .order_details li {
     border-color: rgba(26, 26, 26, .075)
 }
-.prem-main-style .product-type-variable .variations .select-wrap,
-[class*=swatch-] .prem-main-style .product-type-variable .variations .select-wrap {
+.prem-main-style .product-type-variable .variations .select-wrap {
     margin-bottom: 24px
 }
-.prem-main-style .product-type-variable .variations .select-wrap select,
-[class*=swatch-] .prem-main-style .product-type-variable .variations .select-wrap select {
+.prem-main-style .product-type-variable .variations .select-wrap select {
     line-height: 28px
 }
-.prem-main-style .product-type-variable .variations .label,
-[class*=swatch-] .prem-main-style .product-type-variable .variations .label {
+.prem-main-style .product-type-variable .variations .label {
     color: #fff;
     font-size: 16px;
     line-height: 30px
 }
 .prem-main-style .single-product-extras input,
-.prem-main-style .single-product-extras textarea,
-[class*=swatch-] .prem-main-style .single-product-extras input,
-[class*=swatch-] .prem-main-style .single-product-extras textarea {
+.prem-main-style .single-product-extras textarea {
     background: #e74c3c;
     color: #fff
 }
-.prem-main-style .single-product-extras input[type=submit]:hover,
-[class*=swatch-] .prem-main-style .single-product-extras input[type=submit]:hover {
+.prem-main-style .single-product-extras input[type=submit]:hover {
     background: rgba(231, 76, 60, .9);
     color: #fff
 }
-.prem-main-style #review_form:before,
-[class*=swatch-] .prem-main-style #review_form:before {
+.prem-main-style #review_form:before {
     background: #e6e6e6
 }
-.prem-main-style.mini-cart-container.active,
-[class*=swatch-] .prem-main-style.mini-cart-container.active {
+.prem-main-style.mini-cart-container.active {
     box-shadow: -10px 0 0 rgba(223, 46, 27, .3)
 }
-.prem-main-style .cart_list li,
-[class*=swatch-] .prem-main-style .cart_list li {
+.prem-main-style .cart_list li {
     border-color: rgba(0, 0, 0, .075)
 }
-.prem-main-style .cart-actions,
-[class*=swatch-] .prem-main-style .cart-actions {
+.prem-main-style .cart-actions {
     background: #e74c3c;
     color: #fff
 }
-.prem-main-style .widget_product_tag_cloud a,
-[class*=swatch-] .prem-main-style .widget_product_tag_cloud a {
+.prem-main-style .widget_product_tag_cloud a {
     background: #fff;
     color: #e74c3c
 }
-.prem-main-style .widget_product_tag_cloud a:hover,
-[class*=swatch-] .prem-main-style .widget_product_tag_cloud a:hover {
+.prem-main-style .widget_product_tag_cloud a:hover {
     background: rgba(255, 255, 255, .9);
     color: #e74c3c
 }
-.prem-main-style .product_list_widget .star-rating,
-[class*=swatch-] .prem-main-style .product_list_widget .star-rating {
+.prem-main-style .product_list_widget .star-rating {
     color: #fff
 }
-.prem-main-style .widget_price_filter .ui-slider .ui-slider-range,
-[class*=swatch-] .prem-main-style .widget_price_filter .ui-slider .ui-slider-range {
+.prem-main-style .widget_price_filter .ui-slider .ui-slider-range {
     background: rgba(0, 0, 0, .075)
 }
-.prem-main-style .widget_price_filter .ui-slider .ui-slider-handle,
-[class*=swatch-] .prem-main-style .widget_price_filter .ui-slider .ui-slider-handle {
+.prem-main-style .widget_price_filter .ui-slider .ui-slider-handle {
     background: #fff
 }
-.prem-main-style .widget_product_search form:after,
-[class*=swatch-] .prem-main-style .widget_product_search form:after {
+.prem-main-style .widget_product_search form:after {
     color: #e74c3c
 }

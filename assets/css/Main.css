@@ -1,16 +1,35 @@
 body {
     -webkit-font-smoothing: antialiased
 }
-@media (min-width: 200px) and (max-width: 700px) {
+@media (min-width: 200px) and (max-width: 768px) {
     #prem-header.top-navbar-jelly .navbar-collapse {
         margin-top: 0 !important;
+    }
+    #prem-header.top-navbar-jelly {
+    }
+    #prem-header.prem-main-style,
+    #prem-header.prem-main-style div,
+    #prem-header.prem-main-style a {
+        color: #fff;
+        background-color: #1d1d1d;
+    }
+}
+@media (min-width: 768px) {
+    #prem-header.top-navbar-jelly:hover {
+        background-color: #1d1d1d;
+    }
+    #prem-header.top-navbar-jelly:hover .navbar-brand div {
+        color: #fff;
+    }
+    #prem-header.top-navbar-jelly:hover .navbar-brand a {
+        color: #1d1d1d;
     }
 }
 @media (max-width: 979px) {
     #prem-header.navbar .navbar-nav>li>a {
         padding-top: 8px!important;
         padding-bottom: 8px!important;
-        margin-left: 1em;
+        margin: 0 1em;
     }
     #prem-header .navbar-fixed-top,
     #prem-header .navbar-static-top {
@@ -115,20 +134,11 @@ body {
     max-height: 100%
 }
 #prem-header .nav>li>a {
-    padding-top: 33px;
-    padding-bottom: 33px
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-#prem-header .nav>li>a:before {
+#prem-header:hover .nav>li>a:before {
     margin-bottom: -18.5px
-}
-#prem-header .nav li.active>a:before,
-#prem-header .nav>li a:hover:before,
-#prem-header .nav>li.current-menu-ancestor>a:before,
-#prem-header .nav>li.current-menu-item>a:before,
-#prem-header .nav>li.current-menu-parent>a:before,
-#prem-header .nav>li.current-page-ancestor>a:before,
-#prem-header .nav>li.current-page-parent>a:before {
-    margin-bottom: -16.5px
 }
 #prem-header .navbar-text {
     line-height: 24px;
@@ -136,7 +146,8 @@ body {
     margin-bottom: 33px
 }
 #prem-header.navbar {
-    min-height: 90px
+    min-height: 90px;
+    border-bottom: 3px solid #1d1d1d;
 }
 #prem-header.navbar-animate-display,
 #prem-header.navbar-scrolled {

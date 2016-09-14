@@ -4,17 +4,28 @@
 /*global $,_*/
 
 $(document).ready(function(){
-    $('[data-toggle="collapse"]').on('click', function() {
-        $(this).toggleClass('collapsed');
-    });
-    $('.dropdown').on('show.bs.dropdown', function () {
-        if(!$(this).has('ul').length) {
-            return;
-        }
-        $(this).fadeTo('fast', 1);
-        $('#navbar-dropdown').children().not(this).fadeTo( "fast", 0.4 );
-    });
-    $('.dropdown').on('hide.bs.dropdown', function (e) {
-        $('#navbar-dropdown').children().fadeTo('fast', 1);
-    });
+    //performs the navigation related gimmicks on the navbar
+    function navigationGimmick(){
+        $('[data-toggle="collapse"]').on('click', function() {
+            $(this).toggleClass('collapsed');
+        });
+
+        $('.dropdown').on('show.bs.dropdown', function () {
+            if(!$(this).has('ul').length) {
+                return;
+            }
+            $(this).fadeTo('fast', 1);
+            $('#navbar-dropdown').children().not(this).fadeTo( "fast", 0.4 );
+        });
+
+        $('.dropdown').on('hide.bs.dropdown', function (e) {
+            $('#navbar-dropdown').children().fadeTo('fast', 1);
+        });
+    }
+    //performs the body related gimmicks
+    function bodyGimmicks() {
+
+    }
+    navigationGimmick();
+
 });
