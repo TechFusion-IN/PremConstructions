@@ -13,7 +13,7 @@ if (requirejs) {
         }
     });
     //now load the dependencies accordingly
-    requirejs(['config', 'angularJs', 'lodash', 'bootstrap', 'uiEnhancements'], function(config) {
+    requirejs(['config', 'angularJs', 'lodash', 'bootstrap', 'uiEnhancements'], function() {
         $(document).ready(function(){
             var loader = $('#loader'),
                 pageContent = $('.page-content');
@@ -22,7 +22,7 @@ if (requirejs) {
                 pageContent.toggleClass('hide-content');
             });
         });
-        console.log(config, menuItems, $('html'), angular);
+        console.log(menuItems, $('html'), angular);
     });
 } else {
     console.log('You do not have require JS initialised');
